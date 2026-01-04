@@ -5,6 +5,10 @@ public class Student extends User {
     private int entryYear;
     private double avg;
 
+    public Student(){
+        
+    }
+
     public Student(String name, String username, String password, int entryYear, double avg) {
         super(name, username, password);
         this.entryYear = entryYear;
